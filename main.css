@@ -1,0 +1,128 @@
+
+body {
+  display: grid;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  background: rgb(16, 16, 16);
+  background: linear-gradient(180deg, rgb(29, 29, 29) -100%, rgb(44, 44, 44) 100%);
+}
+
+li {
+  list-style: none;
+  padding-left: 20px;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0.3rem 2rem 0.3rem 2rem;
+  background: rgb(16, 16, 16);
+  background: linear-gradient(180deg, rgb(29, 29, 29) 1%, rgb(44, 44, 44) 183%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: grid;
+  padding-top: 70px;
+}
+
+#description {
+  padding: 0 0 0 7rem;
+  align-self: center;
+  justify-self: start;
+}
+
+#more{
+  display: flex;
+  padding: 0 0 2rem 0;
+  justify-content: center;
+}
+
+.more {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 12.3rem;
+  padding: 1rem;
+  margin: 2rem 3rem 5rem 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ffffff;
+}
+
+.more-img {
+  width: 170px;
+  height: 170px;
+  margin-bottom: 1px;
+}
+.more-name {
+  position: absolute;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  background-color: #deff4c;
+  width: 101%;
+  margin-top: 14.7rem;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+.nav-link {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+
+.head {
+  padding-right: 7rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 0;
+  color: white;
+}
+
+.desc {
+  padding-right: 3rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+
+p {
+  transition: color 0.3s ease;
+}
+
+p:hover {
+  color: #deff4c; 
+}
+
+.botao {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #828282;
+  background-color: #deff4c;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #1e1e1e;
+}
